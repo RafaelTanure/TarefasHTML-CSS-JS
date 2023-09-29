@@ -1,0 +1,90 @@
+.boxColums {
+    margin: 0 auto;
+    border: 5px solid rgb(15, 15, 15);
+    border-radius: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+    display: grid;
+}
+
+.boxUm {
+    background: green;
+    text-align: center;
+    margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 10;
+}
+
+.boxDois {
+
+    background: green;
+    text-align: center;
+    margin: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.boxTres {
+    background: orange;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.boxQuatro {
+    background: red;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.boxCinco {
+    background: red;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+
+.boxSeis {
+    background: orange;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+
+.boxSete {
+    background: red;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.boxOito {
+    background: green;
+    margin: 10px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 10;
+}
